@@ -3,21 +3,17 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.9
   - cartopy>=0.18
-  - cf_xarray
   - cmocean
-  - dask
   - jupyter
   - jupyterlab
   - matplotlib
   - netcdf4
-  - numba >= 0.49
   - numpy
   - pandas
-  - pydap
+  - pytables
   - xarray
-  - xgcm
 
 # To install new dependencies list them above
 # and then type the following command
