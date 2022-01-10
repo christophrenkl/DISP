@@ -1,8 +1,10 @@
 # exclude /data from version control
 /data/
+/python_tutorial/data/processed/
 
 # do not track figures
 /reports/figures/*
+/python_tutorial/figures/
 
 # Python Files ================================================================
 # Source: https://github.com/github/gitignore/blob/master/Python.gitignore
